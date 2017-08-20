@@ -1,9 +1,26 @@
-#mainNav ul li.signup a {color: #f36 !important;border: 1px solid #f36;border-radius: 6.25em;padding: 12px 30px !important;margin-left: 15px;font-size: 13px !important;font-family: brandon-grotesque,sans-serif;font-weight: 500 !important;line-height: 1em;display: block;transition: all .2s ease-in-out;letter-spacing: .05em;cursor: pointer;text-transform: uppercase;}
+#mainNav ul li.signup a {color: #f36 !important;border: 1px solid #f36;border-radius: 6.25em;padding: 12px 26px !important;margin-left: 15px;font-size: 13px !important;font-family: brandon-grotesque,sans-serif;font-weight: 500 !important;line-height: 1em;display: block;transition: all .2s ease-in-out;letter-spacing: .05em;cursor: pointer;text-transform: uppercase;}
 #mainNav ul li.signup {height: 40px;}
 .navbar .ml-auto {width: 74.8125%;margin-right: 0;text-align: right;margin-top: 3px;}
 .navbar .ml-auto li{display: inline-block;vertical-align: bottom;height: 30px;overflow: hidden;white-space: nowrap;}
-.navbar .ml-auto li a{padding: 3px 15px !important;font-size: .8em !important;color: #fff !important;font-family: brandon-grotesque,sans-serif;font-weight: 500 !important;line-height: 1em;display: block;transition: all .2s ease-in-out;letter-spacing: .05em;cursor: pointer;vertical-align: bottom;}
+.navbar .ml-auto li a{padding: 3px 15px !important;font-size: .8em !important;/* color: #fff !important; */font-family: brandon-grotesque,sans-serif;font-weight: 500 !important;line-height: 1em;display: block;transition: all .2s ease-in-out;letter-spacing: .05em;cursor: pointer;vertical-align: bottom;}
 .navbar .ml-auto li a:hover {color: #f36 !important;}
 #mainNav {padding: 0 4em;padding-top: 50px;min-width: 900px;}
 #mainNav .main-logo-wrapper {float: left;display: block;margin-right: 3.125%;width: 14.0625%;}
-#mainNav #invision_logo {float: left;display: inline-block;vertical-align: middle;height: 40px;width: 135px;background-image: url(/home/sandhya/Desktop/simpragma_Assignment/simpragma_test/assets/imgs/global-sa42ef3fae4.png);background-position: 0 -680px;background-repeat: no-repeat;text-indent: -9999px;}
+#mainNav.navbar-shrink #invision_logo{display: inline-block;vertical-align: middle;height: 40px;width: 40px;background-image: url(../imgs/global-sa42ef3fae4.png);background-position: 0 -733px;background-repeat: no-repeat;position: relative;top: -20px;}
+#mainNav #invision_logo {float: left;display: inline-block;vertical-align: middle;height: 40px;width: 135px;background-image: url(../imgs/global-sa42ef3fae4.png);background-position: 0 -680px;background-repeat: no-repeat;text-indent: -9999px;}
+.home .trusted-by {padding: 0;font-size: 16px;position: relative;z-index: 10;background: #f9f9fa;}
+.container .inside {max-width: 1320px;margin-left: auto;margin-right: auto;padding: 0 20px;clear: both;}
+.home .trusted-by ul {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-ms-flex-pack: distribute;justify-content: space-around;width: 100%;height: 5em;max-width: 64.875em;margin: 0 auto;}
+.home .trusted-by li {text-align: center;padding: 0;list-style-type: none;}
+.home .trusted-by .airbnb span {height: 26px;width: 82px;background-position: 0 -85px;}
+.home .trusted-by li span {text-indent: -624.9375em;text-indent: 562.5em;position: relative;vertical-align: bottom;overflow: hidden;text-transform: capitalize;filter: alpha(Opacity=70);opacity: .7;}
+.home .trusted-by .airbnb span, .home .trusted-by .dropbox span, .home .trusted-by .huge span, .home .trusted-by .netflix span, .home .trusted-by .salesforce span, .home .trusted-by .shopify span, .home .trusted-by .twitter span{display: inline-block;vertical-align: middle;background-image: url(../imgs/home-s2852c4f65e.png);background-repeat: no-repeat;}
+.home .trusted-by .shopify span {height: 27px;width: 92px;background-position: 0 -2037px;}
+.home .trusted-by .salesforce span {height: 38px;width: 53px;background-position: 0 -1952px;}
+.home .trusted-by .twitter span {height: 22px;width: 27px;background-position: 0 -3725px;}
+.home .trusted-by .netflix span {height: 21px;width: 78px;background-position: 0 -1769px;}
+.home .trusted-by .dropbox span {height: 26px;width: 116px;background-position: 0 -987px;}
+.home .trusted-by .huge span {height: 22px;width: 55px;background-position: 0 -1545px;}
+@media (min-width: 992px){
+#mainNav.navbar-shrink {color: #666 !important;}
+}

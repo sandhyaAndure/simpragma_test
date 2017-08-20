@@ -21,6 +21,9 @@
 .home .trusted-by .netflix span {height: 21px;width: 78px;background-position: 0 -1769px;}
 .home .trusted-by .dropbox span {height: 26px;width: 116px;background-position: 0 -987px;}
 .home .trusted-by .huge span {height: 22px;width: 55px;background-position: 0 -1545px;}
+header.masthead .header-content .header-content-inner h1 {color: #FFF;font: 400 2.875em/1.30435 brandon-grotesque,sans-serif;text-transform: uppercase;letter-spacing: .075em;margin-bottom: .375em;}
+header.masthead .header-content .header-content-inner p {font-size: 16px;margin-bottom: 50px;font: italic 300 1.5em "Open Sans",open-sans,sans-serif;margin-bottom: 4.5em;letter-spacing: .005em;}
+.btn-primary.btn-xl {letter-spacing: .1em;border-radius: 6.25em;display: inline-block;padding: 21px 40px 19px;background: #f36;color: #fff;font-size: 13px;line-height: 1em;font-family: brandon-grotesque,sans-serif;font-weight: 700;text-transform: uppercase;cursor: pointer;transition: background .3s;}
 @media (min-width: 992px){
 #mainNav.navbar-shrink {color: #666 !important;}
 }

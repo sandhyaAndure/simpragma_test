@@ -1,23 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- Bootstrap core CSS -->
-    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom fonts for this template -->
-    <link href="./node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-     <!-- Plugin CSS -->
-     <link href="./assets/css/magnific-popup.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link href="./assets/css/creative.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Bootstrap core CSS -->
+  <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="./node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Plugin CSS -->
+  <link href="./assets/css/magnific-popup.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link href="./assets/css/creative.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/rework.min.css">
+  <style>
+    
+  </style>
 </head>
+
 <body id="page-top" class="home">
-     <!-- Navigation -->
-     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <!-- Navigation -->
+  <div class="main-nav-wrapper">
+    <div class="inside">
+      <nav class="navlight" role="navigation">
+        <a class="navbar-brand navbox main-logo-wrapper" href="./">
+        <img src="./assets/imgs/logo.png" alt="Logo" width="70%">
+        </a>
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#">TOUR</a>
+          </li>
+          <li>
+            <a href="#">CUSTOMERS</a>
+          </li>
+          <li>
+            <a href="#">NEW FEATURES</a>
+          </li>
+          <li>
+            <a href="#">ENTERPRISE</a>
+          </li>
+          <li>
+            <a href="#">BLOG</a>
+          </li>
+          <li>
+            <a href="#">LOGIN</a>
+          </li>
+          <li class="signup">
+              <a href="#">SIGN UP FREE</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="main-logo-wrapper">
                     <a href="/" id="invision_logo">InVision</a>
             </div>
@@ -49,39 +90,58 @@
                 </li>
               </ul>
             </div>
-          </nav>      
-          <header class="masthead">
-            <div class="header-content">
-              <div class="header-content-inner">
-                <h1 id="homeHeading">Design better. faster. together. </h1>                
-                <p>The world's leading prototyping, collaboration & workflow platform </p>
-                <a class="btn btn-primary btn-xl" href="#about">get started - free forever</a>
-              </div>
-            </div>
-          </header>
-          <section class="col-md-12 col-sm-12 col-xs-12 trusted alt trusted-by">
-                <div class="inside">            
-                    <ul>
-                        <li class="airbnb"><span>Airbnb</span></li>
-                        <li class="shopify"><span>Shopify</span></li>
-                        <li class="salesforce"><span>Salesforce</span></li>
-                        <li class="twitter"><span>Twitter</span></li>
-                        <li class="netflix"><span>Netflix</span></li>
-                        <li class="dropbox"><span>Dropbox</span></li>
-                        <li class="huge"><span>Huge</span></li>
-                    </ul>
-            
-                </div>
-            </section>
-    <!-- Bootstrap core JavaScript -->
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="./assets/js/jquery.easing.min.js"></script>
-    <script src="./assets/js/scrollreveal.min.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Custom scripts for this template -->
-    <script src="./assets/js/creative.min.js"></script>
+          </nav>       -->
+  <style>
+    #video-background {
+      /*  making the video fullscreen  */
+      /* position: fixed; */
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      opacity: 0.45;
+      /* z-index: -100; */
+    }
+  </style>
+  <header class="masthead">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" id="video-background" src="https://player.vimeo.com/video/118640180?background=1&autoplay=1&loop=1&color=ff3366&title=0&byline=0&portrait=0"
+        width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1 id="homeHeading">Design better. faster. together. </h1>
+        <p>The world's leading prototyping, collaboration &amp; workflow platform </p>
+        <a class="btn btn-primary btn-xl" href="#about">get started - free forever</a>
+      </div>
+    </div>
+  </header>
+  <section class="col-md-12 col-sm-12 col-xs-12 trusted alt trusted-by">
+    <div class="inside">
+      <ul>
+        <li class="airbnb"><span>Airbnb</span></li>
+        <li class="shopify"><span>Shopify</span></li>
+        <li class="salesforce"><span>Salesforce</span></li>
+        <li class="twitter"><span>Twitter</span></li>
+        <li class="netflix"><span>Netflix</span></li>
+        <li class="dropbox"><span>Dropbox</span></li>
+        <li class="huge"><span>Huge</span></li>
+      </ul>
+
+    </div>
+  </section>
+  <!-- Bootstrap core JavaScript -->
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="./assets/js/jquery.easing.min.js"></script>
+  <script src="./assets/js/scrollreveal.min.js"></script>
+  <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="./assets/js/creative.min.js"></script>
 </body>
+
 </html>

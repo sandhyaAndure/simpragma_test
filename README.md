@@ -9,3 +9,8 @@ laptop/desktop​ ​ screens.
 - The​ ​ code​ ​ should​ ​ follow​ ​ standard​ ​ guidelines,​ ​ readable,​ ​ appropriately​ ​ modularized.
 - Your​ ​ assignment​ ​ would​ ​ be​ ​ rated​ ​ on​ ​ pixel​ ​ perfect​ ​ design,​ ​ craftsmanship​ ​ like​ ​ coding,​ ​ flawless​ ​ execution​ ​ on different​ ​ devices​ ​ and​ ​ the​ ​ timeliness.
 
+### Execution
+- Instal pre-requesites : node (ver 6 pref.)
+- In the bash, traverse to the root folder and enter the comman "npm install"
+- after successfull installation, enter " npm start "
+- The application will open in your default browser.

@@ -98,8 +98,48 @@
 @media screen and (max-width: 768px) and (min-width: 480px) {
   .main-nav-wrapper nav ul li {
     display: block;
+    background-color: #4E4E4E;
   }
   .main-nav-wrapper nav ul li.signup {
     margin-top: 10px;
+  }
+}
+
+@media (max-width:950px) and (min-width: 480px) {
+  header.masthead {
+      height: 90%;
+      min-height: 600px;
+      overflow: hidden;
+  }
+  header.masthead .header-content {
+      position: absolute;
+      top: 40%;
+      padding: 0 50px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%)
+  }
+  header.masthead .header-content .header-content-inner {
+      max-width: 1000px;
+      margin-right: auto;
+      margin-left: auto
+  }
+  header.masthead .header-content .header-content-inner h1 {
+      font-size: 25px
+  }
+  header.masthead .header-content .header-content-inner p {
+      font-size: 15px;
+      max-width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 1em;
+  }
+  header.masthead .header-content .header-content-inner a
+  {
+    font-size: 10px;
+    padding: 10px;
+  }
+  #playvideo {
+    margin-top: 15px;
   }
 }

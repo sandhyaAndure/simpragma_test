@@ -14,3 +14,8 @@ laptop/desktop​ ​ screens.
 - In the bash, traverse to the root folder and enter the comman "npm install"
 - after successfull installation, enter " npm start "
 - The application will open in your default browser.
+
+### SCreenshots
+
+![alt](./screen-1.jpg)
+![alt](./screen-2.jpg)

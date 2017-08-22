@@ -17,19 +17,21 @@
   <link href="./assets/css/creative.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/rework.min.css">
-  <style>
-    
-  </style>
+  <link rel="stylesheet" href="./assets/css/lity.min.css">
 </head>
 
 <body id="page-top" class="home">
   <!-- Navigation -->
   <div class="main-nav-wrapper">
     <div class="inside">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
       <nav class="navlight" role="navigation">
         <a class="navbar-brand navbox main-logo-wrapper" href="./">
         <img src="./assets/imgs/logo.png" alt="Logo" width="70%">
         </a>
+        <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li>
             <a href="#">TOUR</a>
@@ -53,48 +55,13 @@
               <a href="#">SIGN UP FREE</a>
             </li>
         </ul>
+        </div>
       </nav>
     </div>
   </div>
 
-
-  <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="main-logo-wrapper">
-                    <a href="/" id="invision_logo">InVision</a>
-            </div>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">Tour</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">Customers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">New features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Enterprise</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Login</a>
-                </li>
-                <li class="signup">
-                    <a class="nav-link" href="#">Sign Up Free</a>
-                </li>
-              </ul>
-            </div>
-          </nav>       -->
   <style>
     #video-background {
-      /*  making the video fullscreen  */
-      /* position: fixed; */
       right: 0;
       bottom: 0;
       min-width: 100%;
@@ -102,7 +69,6 @@
       width: auto;
       height: auto;
       opacity: 0.45;
-      /* z-index: -100; */
     }
   </style>
   <header class="masthead">
@@ -113,7 +79,9 @@
     <div class="header-content">
       <div class="header-content-inner">
         <h1 id="homeHeading">Design better. faster. together. </h1>
-        <p>The world's leading prototyping, collaboration &amp; workflow platform </p>
+        <p>The world's leading prototyping, collaboration &amp; workflow platform
+          <a id="playvideo" href="https://player.vimeo.com/video/118640180?background=1&autoplay=1&loop=1&color=ff3366&title=0&byline=0&portrait=0" data-lity><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></a>
+        </p>
         <a class="btn btn-primary btn-xl" href="#about">get started - free forever</a>
       </div>
     </div>
@@ -142,6 +110,7 @@
   <script src="./assets/js/jquery.magnific-popup.min.js"></script>
   <!-- Custom scripts for this template -->
   <script src="./assets/js/creative.min.js"></script>
+  <script src="./assets/js/lity.min.js"></script>
 </body>
 
 </html>
